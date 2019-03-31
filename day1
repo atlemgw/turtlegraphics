@@ -1,0 +1,8 @@
+#Turtle graphics day 1
+#Squares
+
+from turtle import* #Import turtle module
+for i in range(500): #For loop loops i from 500 times, counting from 0 - 499
+	forward(i) #Move i forward. The computer adds from 1 - 499 to move i for every loop. It dosn't move the first time
+	left(90) #Moves 90 degrees to the left for every loop which creates the squares
+	hideturtle() #This function hides the turtle from the canvas
