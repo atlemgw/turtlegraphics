@@ -1,0 +1,8 @@
+#Almost the same as day one except from the angle is now making 90 degrees squares
+#The angle(left) is making 91 degrees squares
+
+from turtle import * #Import turtle module
+for i in range(700): #Looping variable i from 0 - 699
+	forward(i) #Looping i 700 times in 91 degrees
+	left(91) #Number of degrees we are looping
+	hideturtle() #Hides turtle
