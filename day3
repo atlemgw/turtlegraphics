@@ -1,0 +1,8 @@
+#Creating spirals with Turtle Graphics
+
+from turtle import * #Inmport turtle module
+
+for i in range(180): #for loop are making 180 loops ranging from 0 - 179
+	circle(i) #Circles starts from 0 and starts moving from 1 - 179 in the loop
+	right(60) #The circles are turning 60 degrees
+	hideturtle() #Hides turtle
