@@ -1,4 +1,4 @@
-#Changing circles by dived or add them
+#Changing circles by either division or addision
 
 from turtle import * #
 
