@@ -1,0 +1,9 @@
+#Changing circles by dived or add them
+
+from turtle import * #
+
+for i in range(480): #for loop starting from 0 - 479
+    circle(i/2) #In this example I have divided the circles
+    #circle(i*2) #You can always make the circles bigger by adding them
+    right(91) #Goding 91 degrees right in range 480
+    hideturtle() #Hides turtle
