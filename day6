@@ -1,0 +1,5 @@
+for i in range(12): #making 12 loops
+	pencolor("navy") #changing black pen color to navy
+	circle(120) #circle with 120 pixels as radius
+	left(30) #turns 30 degrees for every circle that makes a new loop
+	hideturtle() #hides turtle
