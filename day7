@@ -1,0 +1,8 @@
+#Changing background color and tilting the angle and makes addition for forward
+bgcolor("black")
+
+for i in range(800):
+	pencolor("white")
+	forward(i+12)
+	left(71/1.2)
+	hideturtle()
