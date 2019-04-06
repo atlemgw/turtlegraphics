@@ -6,3 +6,10 @@ for i in range(800):
 	forward(i+12)
 	left(71/1.2)
 	hideturtle()
+
+#With circles
+for i in range(640):
+	circle(i+12)
+	left(71/1.2)
+	pencolor("white")
+	hideturtle()
