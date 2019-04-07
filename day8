@@ -1,0 +1,11 @@
+#Change colors by calling a list to pencolor
+from turtle import *
+
+colors = ["navy", "mediumpurple", "palevioletred", "darkorchid", "plum"] #List with 5 colors
+
+for i in range(400):
+	forward(i*2)
+	forward(5)
+	left(51)
+	pencolor(colors[i%5]) #Calling list
+	hideturtle()
