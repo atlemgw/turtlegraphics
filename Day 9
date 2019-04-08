@@ -1,0 +1,10 @@
+#Turtle graphic that makes an outer and inner loop
+
+from turtle import * #Import module
+
+for i in range(800): #for loop ranges from 0 - 799 used as outer loop
+    for j in range(6): #for loop ranges from 0-5. Used as inner loop
+        forward(i) #forward variable i for each loop
+        left(45+1) #Turn left 45 + 1 degree
+        hideturtle() #hides turtle
+    left(33) #Turn left 33 degree
