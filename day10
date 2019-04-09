@@ -1,3 +1,18 @@
+from turtle in range
+
+bgcolor("navy")
+
+for i in range(500):
+    for j in range(3):
+        forward(i)
+        x = degrees(33)
+        left(x + 1/2)
+        hideturtle()
+        pencolor("white")
+        speed(50)
+    right(45+1)
+
+#Test version:
 for i in range(500):
 	for j in range(4):
 		circle(i)
