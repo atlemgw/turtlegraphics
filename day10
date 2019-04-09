@@ -1,0 +1,8 @@
+for i in range(500):
+	for j in range(4):
+		circle(i)
+		x = degrees(10+2)
+		left(x)
+		pencolor(color[i%3])
+		hideturtle()
+	left(2 * x)
