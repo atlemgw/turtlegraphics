@@ -1,0 +1,13 @@
+from turtle import *
+from math import *
+
+
+for i in range(0, 1200, 3):
+    for j in range(4):
+        circle(i)
+        a = atan(9)
+        forward(4)
+        right(a)
+        hideturtle()
+        pencolor("orange")
+    right(degrees(23))
