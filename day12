@@ -1,0 +1,18 @@
+from math import *
+from turtle import *
+import random
+
+color = ["red", "violet", "orange", "blue", "yellow"]
+
+bgcolor("navy")
+
+for i in range(0, 820):
+    for j in range(6):
+        forward(i/5)
+        forward(sin(radians(angle)))
+        left(33/5)
+        width(i/360+1)
+        pencolor(random.choice(color))
+        hideturtle()
+        speed(50)
+    left(91)
