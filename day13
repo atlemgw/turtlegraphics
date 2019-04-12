@@ -8,3 +8,16 @@ for i in range(600):
 		width(i/5+1)
 		pencolor("orange")
 	left(90)
+	
+#With color
+
+color = ["red", "violet", "blue", "orange"]
+
+for i in range(600):
+	for j in range(20):
+		forward(i * j)
+		left(45)
+		hideturtle()
+		width(i/5+1)
+		pencolor(color[i%4])
+	left(90)
