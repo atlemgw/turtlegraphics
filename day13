@@ -1,0 +1,10 @@
+from turtle import *
+
+for i in range(600):
+	for j in range(20):
+		forward(i * j)
+		left(45)
+		hideturtle()
+		width(i/5+1)
+		pencolor("orange")
+	left(90)
