@@ -9,3 +9,39 @@ for i in range(640):
 	forward(i/50+20)
 	i += 2
 	hideturtle()
+	
+	
+	
+	
+#Version 2 - 10000 loops
+
+for i in range(0, 1600, 4):
+	pencolor("turquoise")
+	circle(240)
+	left(23/100+5)
+	title("Atle Winther - Turtle Graphics")
+	forward(i/100+5)
+	hideturtle()
+	speed(60)
+	
+#Version 3	
+
+for i in range(0, 8000, 6):
+	pencolor("turquoise")
+	circle(240)
+	left(23/100+5)
+	title("Atle Winther - Turtle Graphics")
+	forward(i/100+5)
+	hideturtle()
+	speed(60)
+	
+#Version 4	
+
+for i in range(0, 10000, 6):
+	pencolor("turquoise")
+	circle(240)
+	left(23/100+15)
+	title("Atle Winther - Turtle Graphics")
+	forward(i/100+5)
+	hideturtle()
+	speed(80)
