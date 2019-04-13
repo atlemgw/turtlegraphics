@@ -1,0 +1,11 @@
+#Making a torus
+
+from turtle import *
+
+for i in range(640):
+	circle(200)
+	left(53)
+	title("Atle Winther - Turtle Graphics")
+	forward(i/50+20)
+	i += 2
+	hideturtle()
