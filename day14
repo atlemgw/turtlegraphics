@@ -24,4 +24,13 @@ for i in range(0, 8000, 6):
 	hideturtle()
 	speed(60)
 	
+#With even more loops	
 
+for i in range(0, 12000, 6):
+	pencolor("turquoise")
+	circle(240)
+	left(23/100+5)
+	title("Atle Winther - Turtle Graphics")
+	forward(i/100+5)
+	hideturtle()
+	speed(80)
