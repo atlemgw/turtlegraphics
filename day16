@@ -1,0 +1,19 @@
+from turtle import *
+from random import randint
+
+
+        
+speed(0)
+hideturtle()
+pensize(1)
+pencolor("blue")
+
+def crazy_circle():
+    while True:
+        
+        forward(4)
+        if xcor() >= 10 or xcor() <= -10 or ycor()<= -10 or ycor() >= 10: #Where the fun begins. Just change the canvas as you'd like
+            left(randint(90, 180))
+
+            
+crazy_circle()
