@@ -1,0 +1,8 @@
+#Day 17 of 100 by Atle Winther
+
+step = 3
+for step in range(1000):
+	forward(step) #Moves 0 steps forward at the first loop 0, then 3 steps forward at loop 1, then 3*2, 3*3 ...n(1000)
+	left(181) #turns 181 degrees every loop
+	pencolor("orange") #Pencolor is orange
+	hideturtle() #Hides turtle
