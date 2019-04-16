@@ -6,3 +6,4 @@ for step in range(1000):
 	left(181) #turns 181 degrees every loop
 	pencolor("orange") #Pencolor is orange
 	hideturtle() #Hides turtle
+	#eventualy create a speed function. 1000 Loops takes a while to execute.
