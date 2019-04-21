@@ -1,0 +1,14 @@
+#Defined function
+
+def my_turtle():
+    #Choices
+    sides = eval(input("Enter a number of sides:\n "))
+    loops = eval(input("Enter a number of loops:\n "))
+    pen = eval(input("Enter pensize:\n "))
+    #Loop
+    for i in range(int(loops)):
+        forward(i * 2/int(sides) + i)
+        left(360/int(sides) + .350)
+        hideturtle()
+        pensize(pen)
+        speed(30)
