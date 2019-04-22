@@ -1,0 +1,10 @@
+#In this example, there is no pen to draw lines. We use dots instead.
+
+step = 6
+
+for i in range(400): #Eventually 360 is better sometimes
+    forward(i * 3/step + i)
+    left(400/step + 0.350)
+    hideturtle()
+    penup()
+    dot(20)
