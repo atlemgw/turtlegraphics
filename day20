@@ -1,10 +1,10 @@
 #In this example, there is no pen to draw lines. We use dots instead.
 
-step = 6
+step = 6 #Change it to other values
 
 for i in range(400): #Eventually 360 is better sometimes
-    forward(i * 3/step + i)
-    left(400/step + 0.350)
+    forward(i * 3/step + i) #Change to the step + i  to like: step + [1;12[ one at time 
+    left(400/step + 0.350) #Play around with 0.0350
     hideturtle()
     penup()
-    dot(20)
+    dot(20) #change dot to other values. As small as important it will be to change i from the forward function to a smaller number
