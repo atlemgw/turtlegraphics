@@ -13,3 +13,18 @@ for i in range(800):
     #pendown()
     pensize(6)
     color("white")
+    
+    
+    
+ Step 3
+ 
+ for i in range(2700): 
+    forward(i * 0.137) 
+    left(137.5/step + 1.61800398877) #The golden ratio
+    hideturtle()
+    penup()
+    dot(1)
+    #pendown()
+    pensize(1)
+    color("white")
+    speed(0)
