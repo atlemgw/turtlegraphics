@@ -1,4 +1,6 @@
-#Inspired by the golden ratio and the fibonacci sequence
+#Inspired by the phyllotaxis and it's golden ratio
+# divergence angle 360/(pi) = 222.5 or 360 degrees - the divergence angle 222.5 = 137.5
+# In some cases 137.8 looks better than 137.5. Those cases a primary when you work with 3D effects.
 
 bgcolor("darknavy")
 
