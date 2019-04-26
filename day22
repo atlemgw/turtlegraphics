@@ -4,7 +4,7 @@ bgcolor("darknavy")
 
 for i in range(800): 
     forward(i * 0.137) 
-    left(137.5/step + 1.61800398877) 
+    left(137.5/step + 1.61800398877) #The golden ratio
     hideturtle()
     penup()
     dot(10)
