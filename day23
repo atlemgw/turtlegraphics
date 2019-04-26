@@ -1,0 +1,14 @@
+#Golden Ratio
+
+step = 8
+
+for i in range(100): 
+    for j in range(15):
+        circle(10 * j) 
+        left(137.5/step + 4/3) #The golden ratio
+        hideturtle()
+        pendown()
+        pensize(1)
+        color("black")
+        speed(0)
+    left(i + 1.61800398877)
