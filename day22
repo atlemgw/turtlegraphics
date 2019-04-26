@@ -1,0 +1,10 @@
+#Inspired by the golden ratio and the fibonacci sequence
+
+for i in range(800): 
+    forward(i * 0.137) 
+    left(137.5/step + 1.61800398877) #Golden ratio 
+    hideturtle()
+    penup()
+    dot(10)
+    #pendown()
+    pensize(6)
