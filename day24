@@ -1,0 +1,10 @@
+#Making leafs in Turtle Graphics. Wow!
+
+for i in range(160): 
+    for j in range(16):
+        forward(0.3 * i + j) 
+        left(77/step)
+        hideturtle()
+        color("black")
+        speed(0)
+    left(77)
