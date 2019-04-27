@@ -4,6 +4,17 @@
 
 bgcolor("darknavy")
 
+#Examples from youtube
+
+for i in range(800):
+	forward(i * 0.137)
+	left(137.5 / step + 1.61800398877)
+	hideturtle()
+	penup()
+	dot(3)
+	color("white")
+	speed(0)
+
 step = 6
 
 for i in range(800): 
