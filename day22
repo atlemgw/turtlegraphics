@@ -4,7 +4,7 @@
 
 bgcolor("darknavy")
 
-step = 10
+step = 6
 
 for i in range(800): 
     forward(i * 0.137) 
