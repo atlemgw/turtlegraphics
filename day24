@@ -1,10 +1,14 @@
 #Making leafs in Turtle Graphics. Wow!
 
-for i in range(160): 
+for i in range(180): 
     for j in range(16):
-        forward(0.3 * i + j) 
-        left(77/step)
+        forward(0.5 * i + j) 
+        left(77/step) #The golden ratio
         hideturtle()
         color("black")
+        pensize(2)#Eventually change to smaller or big if.
         speed(0)
     left(77)
+    
+    
+   
