@@ -1,0 +1,75 @@
+"""
+Created on Thu May  2 11:29:56 2019
+
+@author: atle
+"""
+
+#My Poly on very early test version
+
+from turtle import *
+
+import random
+
+def my_poly():
+    
+    
+    #Number of lines that should fill the polygon
+    #360 divided by number of lines gives the interior angle
+    num_steps = int(numinput("How many lines?", 
+                            "How many lines do you want to draw?\nFrom 3 - 8"))
+    
+        
+    title("My Poly - Test version") #Title of the program
+    reset() #Resets every time a new loop is created
+    setheading(0) #Heading in straight direction in the cartesian coordinates
+    pencolor("blue") #Fill lines with pencolor
+    begin_fill() #Begin to fill
+    steps = 360 / num_steps #360 degrees divided by number of steps/lines
+    colors = ["pink", "orange", "gray"] #List with colors. Remeber it has to be in great contrast with the pencolor
+    pensize(3) #Makes the stroke of the pen 3 times bigger
+    
+    #Loop
+    for i in range(num_steps): #A for loop creates the polygon
+        forward(steps) #Moves 80 pixels forward added with number of steps
+        left(steps) #Turning in the direction of 360 divided by n
+        dot(5) #Makes dots on every angle. The dot is 5 pixels in radius
+        hideturtle() #Hides turtle
+        write(i + 1) #Writes a number for every time a new line loops through
+        fillcolor(random.choice(colors)) #Fills the polygon with random colors from the list
+    
+    end_fill() #Fill ends
+    penup() #Pen goes up
+    goto(260, 200) #The turtle moves to x; 260, y; 200 on the coordinates
+    
+    #Names of polygons
+    if  num_steps == 3:
+        my_text = print("Triangle")
+        write("Triangle", False, font=("Arial", 20, "bold"))
+        
+    elif  num_steps == 4:
+        my_text = print("Quadrilateral")
+        write("Quadrilateral", False, font=("Arial", 20, "bold")) 
+    
+        
+    elif  num_steps == 5:
+        my_text = print("Pentagon")
+        write("Pentagon", False, font=("Arial", 20, "bold"))
+        
+    elif  num_steps == 6:
+        my_text = print("Hexagon")
+        write("Hexagon", False, font=("Arial", 20, "bold"))
+        
+    elif  num_steps == 7:
+        my_text = print("Heptagon")
+        write("Heptagon", False, font=("Arial", 20, "bold"))
+        
+    elif  num_steps == 8:
+        my_text = print("Octagon")
+        write("Octagon", False, font=("Arial", 20, "bold")) 
+        
+    else:
+        goto(0, 200)
+        write("That was more than 8 lines!\nYou typed: " + str(num_steps), False, font=("Arial", 16))
+        
+    
+    exitonclick()
