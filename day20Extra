@@ -1,0 +1,13 @@
+bgcolor("lightblue")
+
+step = 2
+for i in range(400):
+  color("orange")
+	fd(i * 3 / step + 1)
+	left(400 / step + 0.350)
+	hideturtle()
+	pensize(3)
+	stamp()
+	clearstamp(2)
+	clearstamp(-11)
+	dot(20)
