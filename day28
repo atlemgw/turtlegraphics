@@ -1,0 +1,9 @@
+#sunflower. Try to change the angle.
+
+for i in range(2620):
+    forward(i / 3.5  + 7 * 2)
+    left(77*1.5)
+    dot(2)
+    speed(0)
+    pencolor("cornflowerblue")
+    hideturtle()
