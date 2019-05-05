@@ -1,0 +1,28 @@
+#Working with prime numbers only
+
+for i in range(307):
+    for j in range(19):
+        #pencolor(color)
+        #forward(i)
+        circle(i / 5  * 7 * 3)
+        left(47*3)
+        hideturtle()
+        speed(0)
+        left(89)
+    left(97)
+    
+    
+    
+#Day 27 extra
+
+for i in range(307):
+    for j in range(29):
+        
+        pencolor("steelblue")
+        
+        circle(i / 5  * 7 * 3)
+        left(47*19)
+        hideturtle()
+        speed(0)
+        left(89)
+    left(90)
