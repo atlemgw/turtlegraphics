@@ -1,0 +1,10 @@
+from turtle import *
+
+sides = 3 #Try change from 2 - 9
+
+for i in range(360):
+    forward(i * 2 / sides + i)
+    left(360/ sides + 1.5)
+    hideturtle()
+    pensize(4) #change it as you want
+    speed(0)
