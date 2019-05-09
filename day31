@@ -1,0 +1,10 @@
+import turtle
+
+t = turtle.Pen()
+
+for i in range(500):
+    for j in range(23 + 1):
+        t.forward(i)
+        t.left(33)
+        t.hideturtle()
+        t.speed(0)
