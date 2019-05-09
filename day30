@@ -1,0 +1,11 @@
+import turtle
+
+t = turtle.Pen()
+
+for i in range(360):
+    for j in range(6): #Change them a lot
+        t.forward(i)
+        t.left(91)
+        t.hideturtle()
+        t.speed(0)
+    t.left(105)
