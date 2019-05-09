@@ -1,0 +1,7 @@
+for i in range(360):
+    for j in range(3): #Change them a lot
+        t.forward(i)
+        t.left(77)
+        t.hideturtle()
+        t.speed(0)
+    t.left(105)
