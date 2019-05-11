@@ -1,11 +1,15 @@
-import turtle
+from turtle import *
 
-t = turtle.Pen()
+bgcolor("black")
 
 for i in range(360):
-    for j in range(2): #Change them a lot
-        t.forward(i)
-        t.left(77)
-        t.hideturtle()
-        t.speed(0)
-t.left(91)
+    for j in range(6):
+        pencolor("white")
+        forward(i/6)
+        left(23) 
+        hideturtle()
+        speed(0)
+        heading()
+        
+    left(185)
+dot(6)
