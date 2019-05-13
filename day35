@@ -1,0 +1,14 @@
+#Working with functions
+
+import turtle
+def my_turtle(outer=600, inner=12, angle=77): #Default values which can be changed
+    t = turtle.Pen()
+    t.hideturtle()
+    t.speed(0)
+    colors = ["saddlebrown", "saddlebrown", "gold", "gold", "darkorange", "forestgreen", "forestgreen"]
+    for i in range(outer):
+        t.pencolor(colors[i&6])
+        for j in range(inner):
+            t.circle(i) #or simple just make an i
+            t.left(angle)
+    t.exitonclick() #Sometimes this is important to have. Eg. some Linux-distros do have problems exiting tkinter.
