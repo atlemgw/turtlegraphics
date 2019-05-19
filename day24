@@ -1,5 +1,7 @@
 #Making leafs in Turtle Graphics. Wow!
 
+step = 6
+
 for i in range(180): 
     for j in range(16):
         forward(0.5 * i + j) 
