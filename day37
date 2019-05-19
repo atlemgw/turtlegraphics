@@ -1,0 +1,30 @@
+from turtle import *
+
+
+
+color = ["darkgoldenrod", "goldenrod", "orange", "gold", "khaki", "beige", "ivory"]
+colorv2 = ["firebrick", "brown", "red", "indianred", "lightcoral", "salmon", "mistyrose"]
+
+bgcolor("teal")
+
+for i in range(360):
+    for j in range(2):
+        fd(i)
+        left(91)
+        hideturtle()
+        pencolor(color[i%6])
+        speed(0)
+        #pensize(3)
+    left(105)
+    
+    
+for i in range(360):
+    for j in range(3):
+        fd(i)
+        left(105)
+        hideturtle()
+        pencolor(color[i%6])
+        speed(0)
+        
+        #pensize(3)
+    left(107)    
