@@ -12,4 +12,4 @@ for i in range(360):
         heading()
         
     left(185)
-dot(6)
+    dot(6)
