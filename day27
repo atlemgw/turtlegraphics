@@ -1,8 +1,12 @@
 #Working with prime numbers only
 
+bgcolor("lightblue")
+
+color = ["darkgreen", "green", "seagreen", "mediumseagreen", "springgreen"]
+
 for i in range(307):
     for j in range(19):
-        #pencolor(color)
+        pencolor(color[i%5])
         #forward(i)
         circle(i / 5  * 7 * 3)
         left(47*3)
